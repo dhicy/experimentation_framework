@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Robot Framework reports
+web/reports/*.html
+web/reports/*.xml
+web/reports/*.log
+web/reports/screenshots/
+mobile/reports/*.html
+mobile/reports/*.xml
+mobile/reports/*.log
+mobile/reports/screenshots/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node
+node_modules/
+
+# App files
+*.apk
+*.ipa
+*.aab

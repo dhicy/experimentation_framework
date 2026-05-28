@@ -1,0 +1,51 @@
+# Mobile Configuration
+appium:
+  server_url: "http://127.0.0.1:4723"
+  api_base_path: "/wd/hub"
+  
+android:
+  platform_name: "Android"
+  platform_version: "13.0"        # Sesuaikan dengan versi Android device
+  device_name: "emulator-5554"    # Nama device/emulator
+  automation_name: "UiAutomator2"
+  app_package: "id.co.bitcoin"
+  app_activity: "id.co.bitcoin.SplashActivity"
+  # app_path: "/path/to/indodax.apk"   # Uncomment jika install dari APK
+  no_reset: true
+  full_reset: false
+  new_command_timeout: 60
+  auto_webview: false
+
+ios:
+  platform_name: "iOS"
+  platform_version: "17.0"
+  device_name: "iPhone 15"
+  automation_name: "XCUITest"
+  bundle_id: "id.co.bitcoin"
+  # app_path: "/path/to/Indodax.ipa"   # Uncomment jika install dari IPA
+  no_reset: true
+  full_reset: false
+  new_command_timeout: 60
+
+timeouts:
+  implicit_wait: 10              # seconds
+  explicit_wait: 20              # seconds
+  page_load: 30                  # seconds
+  app_launch: 15                 # seconds
+
+screenshots:
+  on_failure: true
+  path: "mobile/reports/screenshots/"
+
+# Coin list for data-driven testing
+coins:
+  - symbol: "USDT"
+    name: "Tether"
+  - symbol: "BTC"
+    name: "Bitcoin"
+  - symbol: "ETH"
+    name: "Ethereum"
+  - symbol: "BNB"
+    name: "BNB"
+  - symbol: "SOL"
+    name: "Solana"

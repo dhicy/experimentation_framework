@@ -1,0 +1,27 @@
+# Robot Framework Core
+robotframework==7.0.1
+
+# Web Automation - Playwright
+robotframework-browser==18.5.0
+playwright==1.44.0
+
+# Mobile Automation - Appium
+robotframework-appiumlibrary==2.0.0
+Appium-Python-Client==3.1.0
+
+# Data handling
+robotframework-datadriver==1.11.2
+PyYAML==6.0.1
+pandas==2.2.2
+
+# Utilities
+robotframework-faker==5.0.0
+robotframework-requests==0.9.7
+robotframework-jsonlibrary==0.5
+
+# Reporting
+robotframework-pabot==2.18.0
+
+# Dev tools
+black==24.4.2
+pylint==3.2.2

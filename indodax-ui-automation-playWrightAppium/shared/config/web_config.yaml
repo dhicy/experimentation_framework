@@ -1,0 +1,44 @@
+# Web Configuration
+web:
+  base_url: "https://indodax.com"
+  market_url: "https://indodax.com/market/USDTIDR"
+  
+  browser:
+    type: "chromium"           # chromium | firefox | webkit
+    headless: false
+    slow_mo: 0                 # milliseconds - set > 0 for debugging
+    viewport:
+      width: 1920
+      height: 1080
+
+  timeouts:
+    page_load: 30000           # ms
+    element_visible: 15000     # ms
+    element_clickable: 10000   # ms
+    implicit_wait: 5000        # ms
+
+  screenshots:
+    on_failure: true
+    path: "web/reports/screenshots/"
+
+  retry:
+    attempts: 3
+    interval: 2000             # ms
+
+# Market pairs for data-driven testing
+market_pairs:
+  - pair: "USDTIDR"
+    base: "USDT"
+    quote: "IDR"
+  - pair: "BTCIDR"
+    base: "BTC"
+    quote: "IDR"
+  - pair: "ETHIDR"
+    base: "ETH"
+    quote: "IDR"
+  - pair: "BNBIDR"
+    base: "BNB"
+    quote: "IDR"
+  - pair: "SOLUSDTIDR"
+    base: "SOL"
+    quote: "IDR"

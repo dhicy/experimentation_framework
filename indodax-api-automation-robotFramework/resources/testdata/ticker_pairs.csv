@@ -1,0 +1,9 @@
+pair,description,expected_status,should_have_ticker
+btcidr,Bitcoin IDR pair,200,True
+ethidr,Ethereum IDR pair,200,True
+usdtidr,USDT IDR pair,200,True
+bnbidr,BNB IDR pair,200,True
+solidr,Solana IDR pair,200,True
+xrpidr,XRP IDR pair,200,True
+dogidr,Dogecoin IDR pair,200,True
+ltcidr,Litecoin IDR pair,200,True

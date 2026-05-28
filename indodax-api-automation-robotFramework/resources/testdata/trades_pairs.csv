@@ -1,0 +1,4 @@
+pair,description,expected_status
+btcidr,Bitcoin IDR trades,200
+ethidr,Ethereum IDR trades,200
+usdtidr,USDT IDR trades,200

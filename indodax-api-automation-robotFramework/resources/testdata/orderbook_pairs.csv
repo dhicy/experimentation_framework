@@ -1,0 +1,5 @@
+pair,description,expected_status
+btcidr,Bitcoin IDR order book,200
+ethidr,Ethereum IDR order book,200
+usdtidr,USDT IDR order book,200
+bnbidr,BNB IDR order book,200

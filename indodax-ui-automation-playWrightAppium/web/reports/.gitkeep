@@ -1,0 +1,2 @@
+# Reports will be generated here after test execution
+# Run: robot --outputdir web/reports web/tests/
